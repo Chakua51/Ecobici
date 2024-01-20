@@ -1,0 +1,48 @@
+{
+   "properties": {
+      "settings": {
+         "azureADOnlyAuthentication": {
+            "value": false,
+            "state": "Consistent"
+         }
+      },
+      "defaultDataLakeStorage": {
+         "createManagedPrivateEndpoint": false,
+         "accountUrl": "https://storageecobici.dfs.core.windows.net",
+         "filesystem": "ephemeral"
+      },
+      "encryption": {
+         "doubleEncryptionEnabled": false
+      },
+      "provisioningState": "Succeeded",
+      "connectivityEndpoints": {
+         "web": "https://web.azuresynapse.net?workspace=%2fsubscriptions%2f3de2d9d0-3457-4a65-8ba1-1974fe61f78e%2fresourceGroups%2fEco_Bici_Project%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2fsynw-ecobici",
+         "dev": "https://synw-ecobici.dev.azuresynapse.net",
+         "sqlOnDemand": "synw-ecobici-ondemand.sql.azuresynapse.net",
+         "sql": "synw-ecobici.sql.azuresynapse.net"
+      },
+      "managedResourceGroupName": "synapseworkspace-managedrg-0370b7e6-1e78-4062-af31-3d4dd431bf31",
+      "sqlAdministratorLogin": "srvsqlsynapse.eco.database.windows.net",
+      "workspaceUID": "118ad5d4-e5f9-471a-895f-66efc48cc117",
+      "extraProperties": {
+         "WorkspaceType": "Normal",
+         "IsScopeEnabled": false
+      },
+      "publicNetworkAccess": "Enabled",
+      "cspWorkspaceAdminProperties": {
+         "initialWorkspaceAdminObjectId": "c0bbd165-412b-401a-9e1f-3fd7816430d4"
+      },
+      "azureADOnlyAuthentication": false,
+      "trustedServiceBypassEnabled": false
+   },
+   "type": "Microsoft.Synapse/workspaces",
+   "id": "/subscriptions/3de2d9d0-3457-4a65-8ba1-1974fe61f78e/resourceGroups/Eco_Bici_Project/providers/Microsoft.Synapse/workspaces/synw-ecobici",
+   "location": "eastus",
+   "name": "synw-ecobici",
+   "identity": {
+      "type": "SystemAssigned",
+      "tenantId": "72280975-efb8-4c3a-8301-0163768d9bfb",
+      "principalId": "34683e8a-fdfa-446a-9c0c-f4ef7cf84fcb"
+   },
+   "tags": {}
+}
