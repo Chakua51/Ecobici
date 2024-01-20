@@ -1,0 +1,72 @@
+{
+   "properties": {
+      "managedResourceGroupId": "/subscriptions/3de2d9d0-3457-4a65-8ba1-1974fe61f78e/resourceGroups/databricks-rg-dbw-ecobici-ivnlfwzwahgy2",
+      "parameters": {
+         "enableFedRampCertification": {
+            "type": "Bool",
+            "value": false
+         },
+         "enableNoPublicIp": {
+            "type": "Bool",
+            "value": false
+         },
+         "prepareEncryption": {
+            "type": "Bool",
+            "value": false
+         },
+         "publicIpName": {
+            "type": "String",
+            "value": "nat-gw-public-ip"
+         },
+         "requireInfrastructureEncryption": {
+            "type": "Bool",
+            "value": false
+         },
+         "resourceTags": {
+            "type": "Object",
+            "value": {
+               "application": "databricks",
+               "databricks-environment": "true"
+            }
+         },
+         "storageAccountName": {
+            "type": "String",
+            "value": "dbstoragesm52pkw65evai"
+         },
+         "storageAccountSkuName": {
+            "type": "String",
+            "value": "Standard_GRS"
+         },
+         "vnetAddressPrefix": {
+            "type": "String",
+            "value": "10.139"
+         }
+      },
+      "provisioningState": "Succeeded",
+      "authorizations": {
+         "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+         "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+      },
+      "createdBy": {
+         "oid": "c0bbd165-412b-401a-9e1f-3fd7816430d4",
+         "puid": "00037FFE72ED91D8",
+         "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+      },
+      "updatedBy": {
+         "oid": "c0bbd165-412b-401a-9e1f-3fd7816430d4",
+         "puid": "00037FFE72ED91D8",
+         "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+      },
+      "workspaceId": "5708904695825578",
+      "workspaceUrl": "adb-5708904695825578.18.azuredatabricks.net",
+      "createdDateTime": "2024-01-09T20:17:53.9579343Z"
+   },
+   "id": "/subscriptions/3de2d9d0-3457-4a65-8ba1-1974fe61f78e/resourceGroups/Eco_Bici_Project/providers/Microsoft.Databricks/workspaces/dbw-ecobici",
+   "name": "dbw-ecobici",
+   "type": "Microsoft.Databricks/workspaces",
+   "sku": {
+      "name": "trial"
+   },
+   "location": "eastus",
+   "tags": {}
+}
