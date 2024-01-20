@@ -1,0 +1,10 @@
+{
+   "id": "/subscriptions/3de2d9d0-3457-4a65-8ba1-1974fe61f78e/resourceGroups/Eco_Bici_Project",
+   "name": "Eco_Bici_Project",
+   "type": "Microsoft.Resources/resourceGroups",
+   "location": "eastus",
+   "tags": {},
+   "properties": {
+      "provisioningState": "Succeeded"
+   }
+}
