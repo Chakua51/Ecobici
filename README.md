@@ -18,6 +18,7 @@ The project follows a medallion architecture with data layers (bronze, silver, g
 ### Steps
 1. **Enviroment Setup:** Creation of a resource group, Azure Data Lake Storage Gen2, Azure Databricks, Azure Synapse Analytics, Azure Key Vault, and Azure Active Directory (AAD), deployment of Azure services.
 2. **Data Ingestion:** Load delimited text files into Azure Data Lake Storage Gen 2, in the container named "Source."
+https://ecobici.cdmx.gob.mx/datos-abiertos/
 3. **Data Transformation:** Utilizing Azure Databricks to join delimited text files, transforming raw data into curated data through the implementation of a Lakehouse architecture. Implemented Bronze, Silver, and Gold layers to progressively refine and clean the data.
 4. **Data Loading:**  Transfer the processed data from the Gold layer of Azure Data Lake Storage Gen2 to Azure Synapse Analytics.
 5. **Data Reporting:** Using Power BI to create interactive Dashboard on the migrated data stored in Azure Synapse Analytics.
